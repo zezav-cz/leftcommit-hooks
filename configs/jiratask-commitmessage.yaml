@@ -1,4 +1,0 @@
-commit-msg:
-  scripts:
-    "../scripts/jira_task_commit_message.sh":
-       runner: bash

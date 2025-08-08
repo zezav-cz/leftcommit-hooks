@@ -1,4 +1,3 @@
 commit-msg:
-  jobs:
-    - name: "Jira task commit"
-      run: ../scripts/jira_task_commit_message.sh {1}
+  "../scripts/jira_task_commit_message.sh":
+      runner: bash
